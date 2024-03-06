@@ -5,9 +5,9 @@ def linearSearch(numbers, numToFind):
     #go through a given array to find a given number
     n = len(numbers)
     for i in range(n):
-        if numbers[i] == 50:
+        if numbers[i] == numToFind:
             return True
     return False
 
-numbers = ranUniqueNums(99,1,100) #lockers of numbers
+numbers = ranUniqueNums(20,1,49) #lockers of numbers
 print(linearSearch(numbers,50))
